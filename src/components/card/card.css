@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+   width: 100%;
+   min-height: 100vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+.card-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+}
+
+.cards{
+    width: 275px;
+    height: 397px;
+    border-radius: 10px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.Pass{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Prise{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Description{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Description1{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn1{
+    width: 107px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #FAFF00;
+    border: none;
+    cursor: pointer;
+}
