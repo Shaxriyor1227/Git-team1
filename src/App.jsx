@@ -6,8 +6,9 @@ import Card from './components/card/card'
 const App = () => {
   return (
     <div>
-      <About />
       <Header />
+      <About />
+
       <Main />
       <Card />
 
